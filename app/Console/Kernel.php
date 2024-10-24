@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Console;
-use App\Console\Commands\NewFetchJokesCommand; // Import your command
+use App\Console\Commands\NewFetchJokesCommand; 
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -9,7 +9,7 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 class Kernel extends ConsoleKernel
 {
 	 protected $commands = [
-        NewFetchJokesCommand::class, // Register your command here
+        NewFetchJokesCommand::class,
     ];
     protected function schedule(Schedule $schedule)
     {
