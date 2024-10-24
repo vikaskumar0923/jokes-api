@@ -4,9 +4,10 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
 use App\Models\Joke;
 
+
 class FetchJokes extends Command
 {
-    protected $signature = 'jokes:fetch';
+    protected $signature = 'fetch:jokes';
     protected $description = 'Fetch a random joke and store it in the database';
 
     public function handle()
